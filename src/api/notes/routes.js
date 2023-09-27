@@ -29,6 +29,11 @@ const routes = handler => [
     path: '/notes/{id}',
     handler: handler.deleteNoteHandler,
   },
+  // {
+  //   method: 'GET',
+  //   path: '/query-get',
+  //   handler: handler.otherHandler,
+  // }
 ];
 
 module.exports = routes;
